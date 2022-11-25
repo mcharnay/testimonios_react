@@ -1,0 +1,23 @@
+1-. Crear carpeta componentes dentro de src. y dentro crear testimonio.js , puede ser .jsx
+Dentro de ese componenten importar react, crear function con el nombre del contenedor, y retornar un DIV con un className.
+
+2-. Se guardaron 3 imagenes dentro carpeta nueva creada llamada imagenes. Para que el código sea dinámico, el nombre de las imágenes 
+deben respetar una nomenclatura, por ejemplo, acá las imágenes se llaman imagen1.png, sólo cambia el número, pero todas se llaman imagen.
+en la src de la imagen, se pone entre {}, esto hace que se manipule con javascript.
+
+Que cosas borrar:
+setupTest.js
+reportWebVitals.js
+App.test.js
+logo.svg (borrar import de App.js)
+
+En index.js borrar import de reportWebVitals.js
+
+    APP.JS  > es el componenten incial de la aplicación, borrar todo lo que hay dentro del div, y dentro de app.css, borrar todo lo que hay dentro.
+
+Se usará google chrome para ver la aplicación ya que acá se pueden instalar herramientas para ver los componentes y crear perfiles
+
+3-. Se creó carpeta de estilos.
+
+4-. En Testimonio.js, dentro de la función se usarán props, para hacer dinámico la info que sale en los divs. Estos props se ponene dentro de app.js
+cuando se llaman los componentes.
